@@ -32,6 +32,7 @@ print(cid.duplicated().sum())
 cust['CID'] = cust['CID'].str.strip()
 cust['CID'] = cust['CID'].str.lstrip('NASAW000')
 cust.drop_duplicates(subset='CID', inplace=True)
+cust['CID'] = cust['CID'].astype('int64')
 
 
 # rename
