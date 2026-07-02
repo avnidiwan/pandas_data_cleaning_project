@@ -94,3 +94,7 @@ loc.rename( columns = {'CNTRY' : 'country_name'} , inplace = True)
 
 
 print(loc.head(50))
+
+
+# storing cleaned data in new file
+loc.to_csv('cleaned_loc_a101.csv', index=False)
