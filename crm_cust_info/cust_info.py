@@ -253,3 +253,10 @@ cust_info['creation_date'] = pd.to_datetime(cust_info['creation_date'])
 print(cust_info['creation_date'].isnull().sum())
 print(cust_info['creation_date'].dtypes)
 print(cust_info)
+
+
+# storing cleaned data in new file
+cust_info.to_csv(
+    'cleaned_cust_info.csv',
+    index=False
+)
