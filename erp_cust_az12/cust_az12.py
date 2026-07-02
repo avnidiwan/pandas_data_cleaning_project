@@ -123,3 +123,7 @@ cust.rename( columns = {'GEN' : 'gender'} , inplace = True)
 
 print(cust.head(50))
 print(cust.describe())
+
+
+# storing cleaned data in new file
+cust.to_csv('cleaned_cust_az.csv', index=False)
