@@ -261,7 +261,8 @@ prd_info['prd_end_dt'] = pd.to_datetime(prd_info['prd_end_dt'], errors='coerce')
 prd_info = prd_info.rename( columns = { 'prd_end_dt' : 'end_date'})
 
 
-
-
-
 print(prd_info)
+
+
+# storing cleaned data in new file
+prd_info.to_csv('cleaned_prd_info.csv', index=False)
