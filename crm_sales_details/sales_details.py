@@ -341,3 +341,7 @@ print(sales_details['sales_price'].max())
 
 
 print(sales_details)
+
+
+# storing cleaned data in new file
+sales_details.to_csv('cleaned_sales.csv', index=False)
