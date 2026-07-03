@@ -1,0 +1,38 @@
+category_id,product_category,product_subcategory,product_maintenance
+AC-BR,Accessories,Bike Racks,Yes
+AC-BS,Accessories,Bike Stands,No
+AC-BC,Accessories,Bottles And Cages,No
+AC-CL,Accessories,Cleaners,Yes
+AC-FE,Accessories,Fenders,No
+AC-HE,Accessories,Helmets,Yes
+AC-HP,Accessories,Hydration Packs,No
+AC-LI,Accessories,Lights,Yes
+AC-LO,Accessories,Locks,Yes
+AC-PA,Accessories,Panniers,No
+AC-PU,Accessories,Pumps,Yes
+AC-TT,Accessories,Tires And Tubes,Yes
+BI-MB,Bikes,Mountain Bikes,Yes
+BI-RB,Bikes,Road Bikes,Yes
+BI-TB,Bikes,Touring Bikes,Yes
+CL-BS,Clothing,Bib-Shorts,No
+CL-CA,Clothing,Caps,No
+CL-GL,Clothing,Gloves,No
+CL-JE,Clothing,Jerseys,No
+CL-SH,Clothing,Shorts,No
+CL-SO,Clothing,Socks,No
+CL-TI,Clothing,Tights,No
+CL-VE,Clothing,Vests,No
+CO-BB,Components,Bottom Brackets,Yes
+CO-BR,Components,Brakes,Yes
+CO-CH,Components,Chains,Yes
+CO-CS,Components,Cranksets,Yes
+CO-DE,Components,Derailleurs,Yes
+CO-FO,Components,Forks,Yes
+CO-HB,Components,Handlebars,No
+CO-HS,Components,Headsets,No
+CO-MF,Components,Mountain Frames,Yes
+CO-PD,Components,Pedals,No
+CO-RF,Components,Road Frames,Yes
+CO-SA,Components,Saddles,No
+CO-TF,Components,Touring Frames,Yes
+CO-WH,Components,Wheels,Yes
